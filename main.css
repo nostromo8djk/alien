@@ -1,0 +1,108 @@
+h1 {
+  background: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center; border-style: solid;
+}
+body {
+  background-image: url("alienbackground.jpg");
+  background-color: #cccccc; background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-style: solid;
+  border: white;
+  padding:15px;
+  width: 100%; 
+}
+
+#container1 {
+  background-color: black;
+}
+#container2 {
+  background-color: black;
+}
+#container3 {
+  background-color: black;
+}
+#container4 {
+  background-color: black;
+}
+#container5 {
+  background-color: black;
+}
+#container6 {
+  background-color: black;
+}
+#container7 {
+  background-color: black;
+}
+#container8 {
+  background-color: black;
+}
+
+#container1:hover {
+  background-color: green;
+}
+#container2:hover {
+  background-color: green;
+}
+#container3:hover {
+  background-color: green;
+}
+#container4:hover {
+  background-color: green;
+}
+#container5:hover {
+  background-color: green;
+}
+#container6:hover {
+  background-color: green;
+}
+#container7:hover {
+  background-color: green;
+}
+#container8:hover {
+  background-color: green;
+}
+
+.videos {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-style: solid;
+  border: white;
+  padding:15px;
+  width: 100%;
+}
+
+.sequels a:hover {opacity: 0.3;
+}
+
+.navi {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-style: solid;
+  border: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;;
+  margin: 0px;
+  width: 100%;
+  list-style: none;
+  }
+
+nav a:hover {background-color: green;}
